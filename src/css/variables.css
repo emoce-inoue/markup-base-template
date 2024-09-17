@@ -1,5 +1,6 @@
 
 :root {
+
 /* font */
   --font-sans: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   --font-sans-serif: "Noto Serif JP", serif;
@@ -17,6 +18,7 @@
   --tracking-tight: .02em;
   --tracking-normal: .05em;
   --tracking-medium: .07em;
+
 /* size */
   --layout-width-min: 375;
   --layout-width-max: 1440;
@@ -26,17 +28,20 @@
   --rounded-s: 4px;
   --rounded-m: 7px;
   --rounded-l: 30px;
+
 /* color */
   --color-grayscale-0: #FFF;
   --color-grayscale-1000: #000;
   --background-base: var(--color-grayscale-0);
   --font-base: var(--color-grayscale-1000);
-  --underline-base: color-mix(in sRGB, currentColor, transparent 40%);
+  --underline-base: color-mix(in srgb, currentcolor, transparent 40%);
+
 /* z-index */
   --back-z-index: -1;
   --default-z-index: 1;
   --front-z-index: 2;
   --menu-z-index: 3;
+
 /* motion time */
   --speed-quick: .3s;
   --speed-normal: .5s;
