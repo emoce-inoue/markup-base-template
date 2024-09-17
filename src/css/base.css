@@ -11,7 +11,7 @@
 :where(:root) {
   background-color: var(--background-base);
   color: var(--font-base);
-  font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", meiryo, sans-serif;
+  font-family: var(--font-sans);
   font-style: unset;
   font-size: 100%;
   font-weight: 500;
@@ -24,7 +24,8 @@
   line-break: strict;
   overflow-wrap: anywhere;
   hyphens: auto;
-  -webkit-text-size-adjust: 100%; /* stylelint-disable-line declaration-no-important */
+  /* stylelint-disable-next-line declaration-no-important */
+  -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }

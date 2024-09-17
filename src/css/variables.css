@@ -2,7 +2,7 @@
 :root {
 
 /* font */
-  --font-sans: "Noto Sans JP", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  --font-sans: "Noto Sans JP", "Hiragino Kaku Gothic ProN", meiryo, sans-serif;
   --font-sans-serif: "Noto Serif JP", serif;
   --base-text-unit: 16;
   --rem-ratio: calc(1rem / var(--base-text-unit));
