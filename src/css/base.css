@@ -1,4 +1,3 @@
-
 @import url('./variables.css');
 
 * {
@@ -15,7 +14,7 @@
   font-style: unset;
   font-size: 100%;
   font-weight: 500;
-  font-feature-settings: "pkna";
+  font-feature-settings: 'pkna';
   text-align: start;
   letter-spacing: var(--tracking-normal);
   line-height: var(--leading-normal);
@@ -35,7 +34,7 @@
   margin: unset;
 }
 
-:where(h1,h2,h3,h4,h5,h6) {
+:where(h1, h2, h3, h4, h5, h6) {
   margin-block: unset;
   font-size: unset;
 }
@@ -45,11 +44,11 @@
   text-decoration-line: none;
   text-decoration-thickness: from-font;
   text-decoration-color: var(--underline-base);
-  text-underline-offset: .25em;
+  text-underline-offset: 0.25em;
 }
 
 ::file-selector-button,
-:where(button,label[for],select,[role=tab],[role=button]) {
+:where(button, label[for], select, [role='tab'], [role='button']) {
   cursor: pointer;
 }
 
@@ -60,7 +59,7 @@
 }
 
 ::file-selector-button,
-:where(button,input,select,textarea) {
+:where(button, input, select, textarea) {
   padding: unset;
   border-width: 1px;
   border-color: transparent;
@@ -74,12 +73,12 @@
   text-transform: unset;
 }
 
-:where(ul,ol) {
+:where(ul, ol) {
   padding-inline-start: unset;
-  list-style-type: "";
+  list-style-type: '';
 }
 
-:where(p,blockquote,figure,pre,address,ul,ol,dl) {
+:where(p, blockquote, figure, pre, address, ul, ol, dl) {
   margin-block: unset;
 }
 
@@ -87,12 +86,12 @@
   margin-inline: unset;
 }
 
-:where(img,video,canvas,audio,iframe,embed,object) {
+:where(img, video, canvas, audio, iframe, embed, object) {
   display: block flow;
   vertical-align: middle;
 }
 
-:where(img,svg,video) {
+:where(img, svg, video) {
   max-inline-size: 100%;
   block-size: auto;
   object-fit: cover;
@@ -110,5 +109,5 @@
 }
 
 summary::-webkit-details-marker {
-  display:none;
+  display: none;
 }
