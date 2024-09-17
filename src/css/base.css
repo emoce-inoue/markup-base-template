@@ -24,7 +24,7 @@
   line-break: strict;
   overflow-wrap: anywhere;
   hyphens: auto;
-  /* stylelint-disable-next-line declaration-no-important */
+  /* stylelint-disable-next-line property-no-vendor-prefix */
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
