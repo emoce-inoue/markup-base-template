@@ -16,22 +16,26 @@
   --tracking-tight: 0.02em;
   --tracking-normal: 0.05em;
   --tracking-medium: 0.07em;
+  --tracking-relaxed: 0.12em;
 
   /* size */
   --layout-width-min: 375;
   --layout-width-max: 1440;
+  --fluid-ratio-min: calc(1 / var(--layout-width-min) * 100dvi);
+  --fluid-ratio-max: calc(1 / var(--layout-width-max) * 100dvi);
   --aspect-video: 16/9;
   --aspect-thumbnail: 1.91/1;
   --rounded-xs: 2px;
   --rounded-s: 4px;
-  --rounded-m: 7px;
+  --rounded-m: 8px;
+  --rounded-sl: 10px;
   --rounded-l: 30px;
 
   /* color */
   --color-grayscale-0: #fff;
   --color-grayscale-1000: #000;
   --background-base: var(--color-grayscale-0);
-  --font-base: var(--color-grayscale-1000);
+  --font-base: var(--color-grayscale-100);
   --underline-base: color-mix(in srgb, currentcolor, transparent 40%);
 
   /* z-index */
